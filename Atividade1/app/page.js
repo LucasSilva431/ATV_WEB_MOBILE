@@ -7,16 +7,18 @@ export default function Home() {
         <body>
           <img src="https://avatars.githubusercontent.com/u/47857216?s=280&v=4" />
           <audio src="http://www.w3schools.com/tags/horse.mp3" controls>
-             Testando o CAVALO
+            Testando o CAVALO
           </audio>
           <a href="#link">
             {" "}
             <u>Vai para o link para a casa do dado</u>{" "}
           </a>
-          
+
           <h1>
             {" "}
-            <b><ins>Banco de dados </ins></b>
+            <b>
+              <ins>Banco de dados </ins>
+            </b>
           </h1>
 
           <di>
@@ -114,7 +116,60 @@ export default function Home() {
             </p>
           </div>
           <br />
-
+          <div>
+            <table border="1">
+              <caption>Dados dos alunos</caption>
+              <thead>
+                <tr>
+                  <td colSpan="3"> Notas</td>
+                </tr>
+                <tr>
+                  <td></td>
+                  <td colSpan="2">Notas do primeiros semetre</td>
+                </tr>
+                <tr>
+                  <td>Matriculados</td>
+                  <td>Nota 1</td>
+                  <td>Nota 2</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Carlos</td>
+                  <td>10.0</td>
+                  <td>8.0</td>
+                </tr>
+                <tr>
+                  <td>Maira</td>
+                  <td>8</td>
+                  <td>8.0</td>
+                </tr>
+                <tr>
+                  <td>João</td>
+                  <td>8</td>
+                  <td>8.0</td>
+                </tr>
+                <tr>
+                  <td rowSpan="2">joana</td>
+                  <td>7</td>
+                  <td>8.0</td>
+                </tr>
+                <tr>
+                  <td>7</td>
+                  <td>8.0</td>
+                </tr>
+                <tr>
+                  <td colSpan="3">Trancados</td>
+                </tr>
+                <tr>
+                  <td>Lucas</td>
+                  <td>---</td>
+                  <td>---</td>
+                </tr>
+             
+              </tbody>
+            </table>
+          </div>
           <div>
             <p>
               <em>Bora para casa do caralhos?</em>{" "}
