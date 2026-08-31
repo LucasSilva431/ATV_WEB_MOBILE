@@ -24,7 +24,6 @@ export default function Exercicio2() {
         <h1
           style={{
             textAlign: "center",
-            fontSize: "20px",
             color: "darkblue",
           }}
         >
@@ -41,7 +40,6 @@ export default function Exercicio2() {
           <h1
             style={{
               textAlign: "center",
-              fontSize: "20px",
               color: "darkblue",
             }}
           >
